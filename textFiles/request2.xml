@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:ns1="urn:Wordforms" xmlns:ns2="http://datatypes.webservice.wortschatz.uni_leipzig.de">
+	<SOAP-ENV:Body>
+		<ns1:execute>
+			<ns1:objRequestParameters>
+				<ns1:corpus>de</ns1:corpus>
+				<ns1:parameters>
+					<ns1:dataVectors>
+						<ns2:dataRow>Word</ns2:dataRow>
+						<ns2:dataRow>Katze</ns2:dataRow>
+					</ns1:dataVectors>
+					<ns1:dataVectors>
+						<ns2:dataRow>Limit</ns2:dataRow>
+						<ns2:dataRow>10</ns2:dataRow>
+					</ns1:dataVectors>
+				</ns1:parameters>
+			</ns1:objRequestParameters>
+		</ns1:execute>
+	</SOAP-ENV:Body>
+</SOAP-ENV:Envelope>

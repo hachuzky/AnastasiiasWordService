@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?><soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"><soap:Body><RegistrationResponse xmlns="urn:Microsoft.Search"><RegistrationResult>
+&lt;?xml version="1.0" encoding="utf-8"?&gt;
+&lt;ProviderUpdate xmlns="urn:Microsoft.Search.Registration.Response"&gt;
+   &lt;Status&gt;SUCCESS&lt;/Status&gt;
+    &lt;Providers&gt;
+      &lt;Provider&gt;
+        &lt;Id&gt;{5A1AEF54-87F0-4f1d-A2D4-AB3E5D080DE1}&lt;/Id&gt;
+        &lt;Name&gt;Anastasiias Word Service&lt;/Name&gt;
+		&lt;Message&gt;Willkommen bei Anastasiias Word Service Provider!.&lt;/Message&gt;
+        &lt;QueryPath&gt;http://localhost/AnastasiiasWordService/query.php&lt;/QueryPath&gt;
+        &lt;RegistrationPath&gt;http://localhost/AnastasiiasWordService/registration.php&lt;/RegistrationPath&gt;
+        &lt;AboutPath/&gt;
+        &lt;Type&gt;SOAP&lt;/Type&gt;
+        &lt;Revision&gt;1&lt;/Revision&gt;
+        &lt;Services&gt;
+          &lt;Service&gt;
+            &lt;Id&gt;{1698EF5D-E2F5-EF54-87B2-7FC9E9AB0EEF}&lt;/Id&gt;
+            &lt;Name&gt;Anastasiias Word Service&lt;/Name&gt;
+            &lt;Description&gt;Provides description for German Words&lt;/Description&gt;
+            &lt;Copyright&gt;All content Copyright (c) 2014.&lt;/Copyright&gt;
+            &lt;Display&gt;On&lt;/Display&gt;
+            &lt;Category&gt;INTRANET_GENERAL&lt;/Category&gt;
+            &lt;/Service&gt;
+        &lt;/Services&gt;
+      &lt;/Provider&gt;
+    &lt;/Providers&gt;
+&lt;/ProviderUpdate&gt;</RegistrationResult></RegistrationResponse></soap:Body></soap:Envelope>

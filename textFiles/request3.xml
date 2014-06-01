@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<SOAP-ENV:Envelope SOAP-ENV:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:SOAP-ENC="http://schemas.xmlsoap.org/soap/encoding/">
+	<SOAP-ENV:Body>
+		<ns7248:execute xmlns:ns7248="http://tempuri.org">
+			<objRequestParameters>
+				<corpus xsi:type="xsd:string">de</corpus>
+				<parameters xsi:type="SOAP-ENC:Array" SOAP-ENC:arrayType="unnamed_struct_use_soapval[2]">
+					<item>
+						<dataVectors xsi:type="xsd:string">test</dataVectors>
+					</item>
+					<item>
+						<dataVectors xsi:type="xsd:string">test</dataVectors>
+					</item>
+				</parameters>
+			</objRequestParameters>
+		</ns7248:execute>
+	</SOAP-ENV:Body>
+</SOAP-ENV:Envelope>

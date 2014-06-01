@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ProviderUpdate xmlns="urn:Microsoft.Search.Registration.Response">
+   <Status>SUCCESS</Status>
+   <Providers>
+      <Provider>
+         <Message>This is a sample research library</Message>
+         <Id>{5A1AAF54-87F0-4f1d-A2D4-AB3E5D080DE1}</Id>
+         <Name>Sample Research Library</Name>
+         <QueryPath/>
+         <RegistrationPath/>
+         <AboutPath/>
+         <Type>SOAP</Type>
+         <Services>
+            <Service>
+               <Id>{1698075D-E2F5-4254-87B2-7FC9E9AB0780}</Id>
+               <Name>Sample Research Library</Name>
+               <Description>This is a sample research
+ library</Description>
+               <Copyright>All content Copyright (c) 2003.</Copyright>
+               <Display>On</Display>
+               <Category>RESEARCH_GENERAL</Category>
+            </Service>
+         </Services>
+      </Provider>
+   </Providers>
+</ProviderUpdate>

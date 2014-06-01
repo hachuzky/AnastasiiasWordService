@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<SOAP-ENV:Envelope SOAP-ENV:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:SOAP-ENC="http://schemas.xmlsoap.org/soap/encoding/">
+	<SOAP-ENV:Body>
+		<ns9683:execute xmlns:ns9683="http://tempuri.org">
+			<objRequestParameters>
+				<corpus xsi:type="xsd:string">de</corpus>
+				<parameters>
+					<dataVectors xsi:type="SOAP-ENC:Array" SOAP-ENC:arrayType="unnamed_struct_use_soapval[3]">
+						<item>
+							<dataRow xsi:type="SOAP-ENC:Array" SOAP-ENC:arrayType="xsd:string[2]">
+								<item xsi:type="xsd:string">Word</item>
+								<item xsi:type="xsd:string">Katze</item>
+							</dataRow>
+						</item>
+						<item>
+							<dataRow xsi:type="SOAP-ENC:Array" SOAP-ENC:arrayType="xsd:string[2]">
+								<item xsi:type="xsd:string">Limit</item>
+								<item xsi:type="xsd:string">10</item>
+							</dataRow>
+						</item>
+					</dataVectors>
+				</parameters>
+			</objRequestParameters>
+		</ns9683:execute>
+	</SOAP-ENV:Body>
+</SOAP-ENV:Envelope>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+	<ResponsePacket revision="1" providerRevision="2" xmlns="urn:Microsoft.Search.Response">
+		<Response domain="{%domain%}">
+			<Range>
+				<Results>
+					<c:Content xmlns:c="urn:Microsoft.Search.Response.Content">
+						<c:HorizontalRule />
+							%response%
+						<c:HorizontalRule />
+					</c:Content>
+				</Results>
+			</Range>
+			<Status>SUCCESS</Status>
+		</Response>
+	</ResponsePacket>

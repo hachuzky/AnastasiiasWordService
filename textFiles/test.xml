@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+	<SOAP-ENV:Envelope 
+	 SOAP-ENV:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" 
+	 xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" 
+	 xmlns:xsd="http://www.w3.org/2001/XMLSchema" 
+	 xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+	 xmlns:SOAP-ENC="http://schemas.xmlsoap.org/soap/encoding/">
+	 <SOAP-ENV:Body>
+		 <ns7614:execute xmlns:ns7614="http://tempuri.org">
+			 <objRequestParameters>
+				<corpus xsi:type="xsd:string">de</corpus>
+				<parameters>
+					<dataVectors xsi:type="SOAP-ENC:Array" SOAP-ENC:arrayType="unnamed_struct_use_soapval[1]">
+						<item>
+							<dataRow xsi:type="SOAP-ENC:Array" SOAP-ENC:arrayType="xsd:string[2]">
+								<item xsi:type="xsd:string">
+									Wort
+								</item>
+								<item xsi:type="xsd:string">
+									Help
+								</item>
+							</dataRow>
+						</item>
+					</dataVectors>
+				</parameters>
+			</objRequestParameters>
+		</ns7614:execute>
+	</SOAP-ENV:Body>
+</SOAP-ENV:Envelope>
+
+<?xml version="1.0" encoding="UTF-8"?>
+<SOAP-ENV:Envelope 
+	xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" 
+	xmlns:ns1="urn:Frequencies" 
+	xmlns:ns2="http://datatypes.webservice.wortschatz.uni_leipzig.de">
+		<SOAP-ENV:Body>
+			<ns1:execute>
+				<ns1:objRequestParameters>
+					<ns1:corpus>de</ns1:corpus>
+					<ns1:parameters>
+						<ns1:dataVectors>
+							<ns2:dataRow>Wort</ns2:dataRow>
+							<ns2:dataRow>Hund</ns2:dataRow>
+						</ns1:dataVectors>
+					</ns1:parameters>
+				</ns1:objRequestParameters>
+			</ns1:execute>
+		</SOAP-ENV:Body>
+	</SOAP-ENV:Envelope>

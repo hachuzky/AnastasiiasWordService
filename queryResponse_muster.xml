@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+	<ResponsePacket revision="1" providerRevision="44989" xmlns="urn:Microsoft.Search.Response">
+		<Response domain="{0297CD20-047F-4256-0704-00000B040000}">
+			<Range>
+				<Results>
+					<c:Content xmlns:c="urn:Microsoft.Search.Response.Content">
+						<c:P rtl="false">
+							<c:Char light="false">Testi</c:Char>
+								<c:Actions>
+									<c:Insert default="true" />
+									<c:Copy />
+								</c:Actions>
+						</c:P>
+						<c:HorizontalRule />
+						<c:Image source="http://www.windowslivetranslator.com/static/195625/img/officemstlogo.png" />
+						<c:Hyperlink url="http://www.windowslivetranslator.com/user/office/">
+							<c:Text>Mehr Sprachen holen</c:Text>
+						</c:Hyperlink>
+						<c:Hyperlink url="http://www.windowslivetranslator.com/">
+							<c:Text>Microsoft® Translator</c:Text>
+						</c:Hyperlink>
+					</c:Content>
+				</Results>
+			</Range>
+			<Status>SUCCESS</Status>
+		</Response>
+	</ResponsePacket>
